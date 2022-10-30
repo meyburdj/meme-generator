@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="memeGenerator.css" rel="stylesheet" />
+    <link=src=<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meme Generator</title>
+</head>
+
+<body>
+
+    <h2 class="header">
+        To use this meme generator, follow these three simple steps:
+    </h2>
+
+    <div class="instructions">
+        <form action="" id="form">
+            <ol>
+                <li>
+                    <label for="url">Enter the URL of website with desired picture.</label><br>
+                    <input type="text" size="50" id="url" placeholder="URL" />
+                </li><br>
+                <li>
+                    <label for="top">Enter the top text for your meme.</label><br>
+                    <input type="text" size="50" id="top" placeholder="Wait this is all for a meme?" />
+                </li><br>
+                <li>
+                    <label for="bot">Enter the bottom text for your meme.</label><br>
+                    <input type="text" size="50" id="bot" placeholder="Always has been" />
+                </li>
+            </ol>
+
+            <button id="memefy">Memefy!</button>
+
+        </form>
+    </div>
+    <hr />
+    <div id="meme-div">
+
+    </div>
+
+</body>
+<script src="memeGenerator.js"></script>
+
+</html>
